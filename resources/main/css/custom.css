@@ -1,0 +1,18 @@
+.errorMessage {
+    color:#F44336;
+    font-size: 12px;
+}
+
+.btn-pill {
+    border-radius: 1.5rem;
+}
+
+#employeeCards, #departmentCards {
+    padding: 5px;
+    background-color: #d3d3d3;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+
+}
